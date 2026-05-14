@@ -1,0 +1,27 @@
+#!/bin/bash
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    download_ram                                    :+:+: :+:+:  +:++:+     #
+#                                                     :+:+:+: :+:+:+  +:++    #
+#    By: pibouill <pibouill@student.42prague.com>   +:++#++:+#++#++:++#++:++  #
+#                                                 +:++#++:+#++#++:++#++:++:++#
+#    Created: 2026/05/04 12:00:00 by pibouill          #+#    #+#            #
+#    Updated: 2026/05/04 12:00:00 by pibouill         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+clear
+while true; do
+    echo "Downloading more RAM..."
+    sleep 1
+    echo "0%"
+    for i in {1..100}; do
+        echo -ne "\r$i%"
+        sleep 0.05
+    done
+    echo ""
+    echo "Error: RAM not found in database."
+    echo "Please wait while we steal some from Windows users..."
+    sleep 1
+done

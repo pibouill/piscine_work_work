@@ -1,0 +1,27 @@
+#!/bin/bash
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    fake_install                                    :+:+: :+:+:  +:++:+     #
+#                                                     :+:+:+: :+:+:+  +:++    #
+#    By: pibouill <pibouill@student.42prague.com>   +:++#++:+#++#++:++#++:++  #
+#                                                 +:++#++:+#++#++:++#++:++:++#
+#    Created: 2026/05/04 12:00:00 by pibouill          #+#    #+#            #
+#    Updated: 2026/05/04 12:00:00 by pibouill         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+clear
+while true; do
+    echo "Installing Windows 98..."
+    sleep 1
+    for i in {1..20}; do
+        echo -n "."
+        sleep 0.3
+    done
+    echo ""
+    echo "Error: Not enough RAM. Please insert 512MB SIMM."
+    sleep 1
+    echo "Just kidding, you're running Linux! 😈"
+    sleep 2
+done
